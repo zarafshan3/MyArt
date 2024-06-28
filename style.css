@@ -1,0 +1,159 @@
+.navbar{
+    height: 50px;
+    background-color: aqua;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.images{
+    background: red;
+    min-height: 1150px;
+}
+
+.image1{
+    background-image: url(/images/streetart.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image2{
+    background-image: url(/images/streetart2.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: left;
+}
+
+.image4{
+    background-image: url(/images/streetart4.jpg);
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .image3{
+        background-image: url("/images/streetart3.jpg");
+        height: 400px;
+        background-size: cover;
+        background-position: left;
+    }
+    
+    .image5{
+        background-image: url("/images/streetart5.jpg");
+        height: 450px;
+        background-size: cover;
+        background-position: left;
+        background-repeat: no-repeat;
+    }
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .image3{
+        background-image: url("/images/streetart3.jpg");
+        height: 400px;
+        background-size: cover;
+        background-position: left;
+        margin-top: -100px;
+    }
+    .image5{
+        background-image: url("/images/streetart5.jpg");
+        height: 450px;
+        background-size: cover;
+        background-position: left;
+        background-repeat: no-repeat;
+        margin-top: -450px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .image3{
+        background-image: url("/images/streetart3.jpg");
+        height: 400px;
+        background-size: cover;
+        background-position: left;
+        margin-top: -100px;
+    }
+
+    .image5{
+        background-image: url("/images/streetart5.jpg");
+        height: 450px;
+        background-size: cover;
+        background-position: left;
+        background-repeat: no-repeat;
+        margin-top: -450px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .image3{
+        background-image: url("/images/streetart3.jpg");
+        height: 400px;
+        background-size: cover;
+        background-position: left;
+        margin-top: -100px;
+    }
+
+    .image5{
+        background-image: url("/images/streetart5.jpg");
+        height: 450px;
+        background-size: cover;
+        background-position: left;
+        background-repeat: no-repeat;
+        margin-top: -450px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .image3{
+        background-image: url("/images/streetart3.jpg");
+        height: 400px;
+        background-size: cover;
+        background-position: left;
+        margin-top: -100px;
+    }
+
+    .image5{
+        background-image: url("/images/streetart5.jpg");
+        height: 450px;
+        background-size: cover;
+        background-position: left;
+        background-repeat: no-repeat;
+        margin-top: -450px;
+    }
+}
+.about{
+    height: 500px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.about .imageAbout{
+    width: 100%;
+    min-height: 300px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    margin-top: 20px;
+}
+
+.contact{
+    height: 500px;
+    text-align: center;
+}
+
+.contact h3{
+    color: red;
+}
